@@ -5,9 +5,14 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{502F269D-3FB8-4AEE-A2AB-C28ABD885B7D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{082A3503-7713-448B-80A8-2D43BF3C46EF}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{082A3503-7713-448B-80A8-2D43BF3C46EF} = {502F269D-3FB8-4AEE-A2AB-C28ABD885B7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99DAD443-3028-4356-84C1-4EC5B6235CB8}
