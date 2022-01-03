@@ -1,12 +1,12 @@
-﻿using Discount.Api.Entity;
+﻿using Discount.Grpc.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Discount.Api.Repositories
+namespace Discount.Grpc.Repositories
 {
-    public class IDiscountRepository
+    public interface IDiscountRepository
     {
         Task<Coupon> GetDiscount(string productName);
 
